@@ -42,7 +42,10 @@ io.on("connection", (socket) => {
   });
 
   socket.on("code-change", ({ roomId, code }) => {
-    socket.to(roomId).emit("receive-code", code);
+   console.log("Received code from", socket.id);
+console.log("Room:", roomId);
+
+socket.to(roomId).emit("receive-code", code);
   });
 
   socket.on("disconnect", () => {
