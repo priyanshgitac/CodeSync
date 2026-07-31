@@ -1,0 +1,9 @@
+.language-selector {
+    padding: 10px;
+    border-radius: 8px;
+    background: #334155;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}

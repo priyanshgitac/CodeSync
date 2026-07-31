@@ -1,0 +1,47 @@
+.sidebar {
+    width: 230px;
+    background: #181818;
+    color: white;
+    border-right: 1px solid #333;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    font-size: 13px;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.file {
+    padding: 10px 12px;
+    background: #252526;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.file:hover {
+    background: #333;
+}
+
+.active {
+    background: #007acc;
+}
+
+.sidebar hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 18px 0;
+}
+
+.user {
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    background: #252526;
+    border-radius: 6px;
+    font-size: 14px;
+}

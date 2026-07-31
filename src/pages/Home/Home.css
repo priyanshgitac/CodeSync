@@ -1,0 +1,74 @@
+/* Full Page */
+
+.home {
+    height: 100vh;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+
+.home-container {
+    width: 400px;
+    background-color: #1e293b;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Heading */
+
+.home-container h1 {
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* Subtitle */
+
+.home-container p {
+    color: #cbd5e1;
+    margin-bottom: 10px;
+}
+
+/* Input */
+
+.home-container input {
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Buttons */
+
+.home-container button {
+    padding: 14px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover Effect */
+
+.home-container button:hover {
+    background-color: #1d4ed8;
+}
+
+/* OR */
+
+.home-container span {
+    color: #94a3b8;
+    font-weight: bold;
+}

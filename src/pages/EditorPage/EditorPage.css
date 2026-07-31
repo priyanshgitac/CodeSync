@@ -1,0 +1,18 @@
+.editor-page {
+    height: 100vh;
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-main {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.bottom-panel{
+    height: 280px;
+    background:#1e1e1e;
+    border-top:1px solid #333;
+}
