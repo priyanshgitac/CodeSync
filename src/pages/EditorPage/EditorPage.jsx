@@ -73,8 +73,18 @@ useEffect(() => {
     JSON.stringify(workspace)
   );
 }, [code, language, roomId]);
+useEffect(() => {
+  socket.on("receive-code", (newCode) => {
+    console.log("📥 Received code");
 
+    setCode(newCode);
+  });
+
+  return () => socket.off("receive-code");
+}, []);
 function handleCodeChange(newCode) {
+  console.log("📤 Sending code");
+
   setCode(newCode);
 
   socket.emit("code-change", {
